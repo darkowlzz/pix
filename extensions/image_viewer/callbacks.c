@@ -30,6 +30,7 @@
 
 static const GthShortcut shortcuts[] = {
 	{ "image-zoom-in", N_("Zoom in"), GTH_SHORTCUT_CONTEXT_VIEWER, GTH_SHORTCUT_CATEGORY_IMAGE_VIEWER, "plus" },
+	{ "image-zoom-in", N_("Zoom in"), GTH_SHORTCUT_CONTEXT_VIEWER, GTH_SHORTCUT_CATEGORY_IMAGE_VIEWER, "equal" },
 	{ "image-zoom-out", N_("Zoom out"), GTH_SHORTCUT_CONTEXT_VIEWER, GTH_SHORTCUT_CATEGORY_IMAGE_VIEWER, "minus" },
 	{ "image-zoom-100", N_("Zoom 100%"), GTH_SHORTCUT_CONTEXT_VIEWER, GTH_SHORTCUT_CATEGORY_IMAGE_VIEWER, "1" },
 	{ "image-zoom-200", N_("Zoom 200%"), GTH_SHORTCUT_CONTEXT_VIEWER, GTH_SHORTCUT_CATEGORY_IMAGE_VIEWER, "2" },
